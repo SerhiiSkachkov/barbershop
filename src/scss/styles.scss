@@ -1,0 +1,285 @@
+//fonts
+@import "lamberjack";
+
+$lj:'Lumberjack';
+$ljr:'Lumberjack Rough';
+$ljir:'Lumberjack Inline Rough';
+$lgrs:'Lumberjack Rough Shadow';
+
+@import "din";
+
+$dinB:'DINCyr bold';
+$dinM:'DINCyr med';
+$din:'DINCyr';
+
+
+//fonts End
+
+
+//costums style
+* {
+	box-sizing:border-box;
+	outline: none;
+}
+h1,h2,h3,h4,h5{
+	margin: 0px;
+}
+ul,li{
+	padding: 0px;
+}
+.img-responsive{
+	max-width:100%;
+	height:auto;
+}
+a{
+	text-decoration: none;
+}
+//costums style END
+//mixins colors
+$default:#a68251;
+$gray-el:#f3f4f5;
+//mixins colors end
+.body-fixed{
+	position: fixed;
+	width:100%;}
+
+.title{
+	font:56px/1 $ljr;
+	text-transform: uppercase;
+	text-align: center;}
+
+.title-brown {
+	color:$default;}
+
+.title-light{
+	color:#d6d9de;}
+
+@media(max-width:1199px) {
+	.title{
+		font:46px/1 $ljr;}
+}
+
+.pointer{
+	cursor:pointer;}
+
+body{
+	font-family:'DINCyr', sans-serif; 
+	background-color: #fff;
+	color:#20222a;
+}
+
+@media screen and (min-width:1280px) {
+	.container{
+		width: 1200px!important;
+	}
+}
+	.container-mod{
+		width: 100%!important;
+		max-width: 1366px;
+	}
+@media screen and (max-width:767px) {
+	.container{
+		width: 100%;
+		margin: 0 auto;
+		max-width:575px!important;
+	}
+}
+@media screen and (max-width:767px) {
+		.container-mod{
+			padding:0px 15px; 
+		}
+	}
+
+
+
+@import "top";
+
+@import "about";
+
+@import "market";
+
+@import "why";
+
+@import "result";
+
+@import "intern";
+
+@import "invest";
+
+@import "finance";
+
+@import "support";
+
+@import "search";
+
+@import "matter";
+
+@import "training";
+
+@import "clients";
+
+@import "inner";
+
+@import "settings";
+
+@import "perfect";
+
+@import "application";
+
+@import "partners";
+
+@import "quest";
+
+@import "foo";
+
+@import "hamburgers";
+
+@import "conf";
+
+@import "forms";
+
+.call {
+  	width: 497px;
+  	display: none; }
+
+.call-form {
+    padding: 43px 38px 48px; }
+
+.call-title {
+    font: 700 34px "DINCyr"; }
+
+.call-title-after {
+    font-size: 20px;
+    margin-bottom: 20px; }
+
+@media screen and (max-width: 767px) {
+  .call-title {
+    font-size: 28px; }
+
+  .call-title-after {
+    font-size: 17px; } 
+}
+
+.fancybox-content {
+	padding: 0px!important;
+	border-radius:6px;
+}
+
+.thanks {
+	padding-top:30px;
+	background-color: white;
+	text-align: center;}
+
+.thanks-title{
+	font-size: 38px;}
+
+#p_prldr{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background:rgba(17, 16, 16, 0.99);
+	z-index: 99999999999!important;}
+ 
+.contpre{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 50%;top: 48%;
+	margin-left:-125px;
+	margin-top:-75px;
+	text-align:center;}
+ 
+#p_prldr .svg_anm {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	background: url(../img/oval.svg) center center no-repeat;
+	background-size:41px;    
+	margin: -35px 0 0 -35px;}
+
+
+.confidencial {
+	border-bottom:1.5px solid #28435d;}
+
+.confidencial-white {
+	color:white!important;
+	border-bottom:1px solid white;}
+
+.confidencial:hover{
+	transition:0.5s;
+	color:$default!important;
+	border-bottom:1.5px solid $default!important;}
+
+@media screen and (max-width:575px) {
+	.confidencial {
+		display: inline-block;}
+}
+	
+
+.btn-click {
+	display: none;
+}
+@media screen and (max-width:767px) {
+	.btn-click{
+		display: block;
+		width: 270px;
+		margin: 0 auto;
+		padding: 10px 20px 18px;}
+}
+.ok{
+	display: none;
+	padding: 50px 30px 30px !important;
+	max-width: 400px;
+	background: white;
+	min-height: 300px;
+	margin: 0 auto;
+	border:2px solid $default;
+	text-align: center!important;
+	border-radius: 5px;}
+
+.ok	h3 {
+	margin-bottom: 30px;}
+
+.ok-txt {
+	margin-bottom: 30px;}
+
+.ok-txt img {
+		max-width:80px;}
+
+#buy-shop{
+	color:#20222a;
+	display: none;
+	text-align: center;}
+
+.copy{
+	font: 16px "DINCyr med";}
+
+@media screen and (max-width:992px) {
+	.copy{
+	 	text-align: center;}
+}
+
+.found{
+	min-height: calc(100vh - 348px);
+	text-align: center;
+	background:url('../img/new.jpg') center top no-repeat/cover;
+	padding: 100px 0px;}
+
+.found-title {
+	font: 170px/1 "Lumberjack Rough";
+	text-transform: uppercase;
+	color:$default;
+	margin-bottom: 30px;}
+
+.found-title-after {
+	font-size: 60px;
+	margin-bottom: 30px;}
+
+.found-link{
+	font-size:30px;
+	color:inherit;
+	&:hover{
+		color:$default;}
+}

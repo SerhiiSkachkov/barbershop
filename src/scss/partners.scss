@@ -1,0 +1,136 @@
+.partner{
+	padding-top: 52px;
+	padding-bottom:94px;
+	background:url('../img/part.jpg') center bottom no-repeat/cover;
+	color:white;
+	&-ante{
+		display: none;
+	}
+	&-top{
+		padding-left: 23px;
+		padding-top: 5px;
+	}
+	&-list{
+		li{
+			font-size: 17px;
+			margin-bottom: 15px;
+			padding-left: 20px;
+		}
+	}
+	&-title{
+			text-transform: uppercase;
+			font:48px/1 $ljr;
+			color:#f4ca8e;
+			margin-bottom: 5px;
+			&-before{
+				font:21px/1 $ljr;
+				margin-bottom: 10px;
+			span{
+				color:#f4ca8e;
+				margin-right: 10px;
+				}
+			}
+			&-after{
+				font:42px/1 $ljr;
+				text-transform: uppercase;
+				span{
+						color:#f4ca8e;
+				}
+			}
+		}
+	&-clmn-left{
+		padding: 40px 0px 0px 4px;
+	}
+	&-clmn-right{
+		padding-top: 17px;
+	}
+	&-form{
+		margin-left: 17px;
+		padding: 30px 40px 40px;
+		color:#20222a;
+		&-title{
+			font: 38px $dinB;
+			&-after{
+				font-size: 20px;
+				font-weight:bold;
+				margin-bottom: 8px;
+			}
+			&-helper{
+				font-size: 17.5px;
+				margin-bottom: 17px;
+			}
+		}
+	}
+	&-check{
+		margin: 9px 0px 29px !important;
+	}
+}
+.partner-btn{
+	padding: 16px 82px 18px;
+}
+@media screen and (max-width:1199px){
+	.partner{
+		&-title{
+			font-size: 37px;
+			&-before{
+				margin-bottom: 15px;
+				span{
+					display: block;
+					margin-bottom: 10px;
+				}
+			}
+			&-after{
+				font-size: 40px;
+			}
+		}
+		&-form{
+			margin-left: 0;
+			padding: 30px 25px 40px;
+		}
+	&-clmn-left{
+		text-align: center;
+		margin-bottom: 30px;
+		padding-left:15px;
+		}
+	}
+}
+@media screen and (max-width:991px){
+	.partner{
+		&-title{
+			font-size:46px;
+		}
+	}
+}
+@media screen and (max-width:575px){
+	.partner{
+		&-ante{
+			margin-top: 40px;
+			display: block;
+			display: flex;
+		}
+		&-top{
+			padding-left: 15px;
+		}
+		&-title-after {
+    font-size: 28px;
+  }
+		&-list{
+			padding-left: 15px;
+		}
+		&-clmn-right{
+			padding: 0px 10px;
+		}
+		&-form-title{
+			font-size: 27px;
+			&-after{
+				font-size:18px;
+			}
+		}
+	&-btn{
+		padding: 16px 58px 18px;
+	}
+	&-clmn-left{
+		padding-left: 	0px;
+	}
+	}
+}

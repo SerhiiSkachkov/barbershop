@@ -1,0 +1,43 @@
+.interior {
+  	padding-top: 40px;
+ 	padding-bottom: 20px; }
+
+.interior h2 {
+    margin-bottom: 30px; }
+
+.interior-item {
+    float: left;
+    display: block; }
+
+.interior-one {
+    width: 28.69%; }
+
+.interior-two {
+    width: 34.9%;
+    padding-left: 4px; }
+
+.interior-three {
+    width: 36.33%;
+    padding-left: 4px; }
+
+.interior-fourth {
+    width: 28.77%; }
+
+.interior-five {
+    width: 42.4%;
+    padding: 0px 4px; }
+
+@media screen and (max-width: 767px) {
+  	.interior {
+    	padding-bottom: 0px; }
+
+    .interior .container {
+      	padding: 0px 30px; }
+
+    .interior-item {
+      	width: 100%;
+      	padding: 0; }
+      	
+    .interior-item img {
+        width: 100%; } 
+}

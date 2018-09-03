@@ -1,0 +1,109 @@
+.why {
+  	padding-top: 66px;
+  	padding-bottom: 96px;
+  	background: url(../img/why-bg.jpg) center top no-repeat/cover; }
+
+.why h2 {
+    margin-bottom: 60px; }
+
+.why-top {
+    padding-bottom: 60px; }
+
+.why-context {
+    font: 900 19px/2 "DINCyr"; }
+
+.why-context-after {
+    font: 17px "DINCyr";
+    margin-bottom: 19px; }
+
+.why-context-after-bold {
+    font-family: "DINCyr bold"; }
+
+.why-top-right {
+    text-align: right; }
+
+.why-top-right-img {
+    -webkit-box-shadow: 18px 18px 24px 1px rgba(0, 0, 0, 0.45);
+        box-shadow: 18px 18px 24px 1px rgba(0, 0, 0, 0.45); }
+
+.why-bot-left {
+  padding-right: 25px;
+  text-align: right; }
+  .why-bot-left-img {
+    -webkit-box-shadow: -15px 18px 24px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: -15px 18px 24px 1px rgba(0, 0, 0, 0.45); }
+
+.why-bot-right {
+  	padding-top: 64px;
+  	padding-left: 25px; }
+
+.why-bot-ante {
+  	margin: 92px auto 20px;
+  	display: -webkit-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	width: 90%;
+  	-ms-flex-pack: distribute;
+    justify-content: space-around;
+  	-webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.why-bot-ante-line {
+    height: 3px;
+    width: 40%;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #233f4a), to(rgba(125, 185, 232, 0)));
+    background: linear-gradient(to left, #233f4a 0, rgba(125, 185, 232, 0) 100%); }
+
+.why-bot-ante-line-right {
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #233f4a), to(rgba(125, 185, 232, 0)));
+    background: linear-gradient(to right, #233f4a 0, rgba(125, 185, 232, 0) 100%); }
+
+.why-bot-ante-context {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center; }
+
+@media screen and (max-width: 991px) {
+  .why-top-right {
+    float: none !important;
+    text-align: center;
+    margin-bottom: 30px; }
+
+  .why-bot-left {
+    text-align: center; }
+
+  .why-bot-right {
+    padding-left: 15px; } 
+}
+
+@media screen and (max-width: 767px) {
+  	.why {
+    	padding-top: 50px;
+    	padding-bottom: 50px; }
+
+    .why h2 {
+      	margin-bottom: 25px; }
+
+    .why-top {
+      	padding-bottom: 0px; }
+
+    .why-top-right {
+        padding: 0px 30px;
+        margin-bottom: 20px; }
+
+    .why-bot-left {
+      	text-align: center;
+      	padding: 0px 50px; }
+
+    .why-bot-right {
+      	padding-top: 25px; }
+
+    .why-bot-ante {
+      	margin: 20px auto 20px; }
+
+    .why-bot-ante-context {
+        width: 100%; }
+        
+    .why-bot-ante-img {
+        margin: 0px 15px; } }

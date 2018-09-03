@@ -1,0 +1,59 @@
+.application{
+	background:url('../img/application.jpg') center bottom  no-repeat/cover;
+	padding-top: 121px;
+	padding-bottom: 99px;
+	&-clmn-right{
+		padding-left: 6px;
+	}
+	&-form{
+    margin-right: 73px;
+    padding: 46px 37px 65px 46px;
+		&-title{
+			font: 36px $dinB;
+			&-after{
+				font-size: 20px;
+				margin-bottom: 9px;
+			}
+		}
+	}
+}
+.application-btn{
+	padding: 15px 57px 22px;
+}
+@media screen and (min-width: 1921px){
+	.application{
+		background-size: 100% 110%;
+	}
+}
+@media screen and (max-width:1199px){
+	.application{
+		&-form{
+			margin-right: 0px;
+			padding:46px 25px 65px 25px;
+		}
+		&-clmn-right{
+			padding:0px 15px;
+		}
+	}
+}
+@media screen and (max-width:991px){
+	.application{
+		&-form{
+			margin-right: 0px;
+		}
+	}
+}
+@media screen and (max-width:575px){
+	.application{
+		    padding: 85px 0px 60px;
+		&-clmn-right{
+			padding: 0px 10px;
+		}
+		&-btn{
+			padding:15px 35px 22px;
+		}
+		&-form-title{
+			font-size:28px;
+		}
+	}
+}

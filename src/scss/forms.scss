@@ -1,0 +1,162 @@
+.errorInput{
+	border-color: red!important;
+}
+.error{
+	position: relative;
+	&:before{
+		content: '';
+    	border-top: 1px solid gray;
+    	border-left: 1px solid gray;
+    	background-color: white;
+    	transform: rotate(45deg);
+    	display:block;
+    	position: absolute;
+    	bottom: -5px;
+    	left: 21px;
+    	width: 13px;
+    	height: 13px;
+    	z-index: 100;
+		}
+	&:after{
+		margin-left:8px;
+		padding: 9px 10px 14px 35px;
+		background: url(../img/clip.jpg) 2% 71%/contain no-repeat #fff;
+		background-size: 7%;
+        content: "Пожалуйста, заполните поля, помеченные красным";
+		display:block;
+		color:black;
+		background-color:white;
+		border-radius:6px;
+		border:1px solid gray;
+		position: absolute;
+		font-size:13px;
+		bottom:-40px;
+		z-index:99;
+	}
+	&-open{
+		&:before{
+			margin-left: 50px;
+		}
+
+		&:after{
+			margin-left: 45px;
+		}
+	}
+}
+
+ @media screen and (max-width:410px){
+ 	.error:before{
+ 		bottom:12px;
+ 		}
+ 	}
+ @media screen and (max-width:375px){
+ 	.error:after{
+ 		background: url(../img/clip.jpg) 3% 35%/contain no-repeat #fff;
+ 		background-size: 7%;
+ 	}
+ 	.error:before{
+ 		bottom:12px; 	
+ 	}
+ }
+.form{
+	&-box{
+		background-color: #fff;
+		text-align: center;	
+	  	border: 3px solid #a68251;
+	  	border-radius: 6px;
+	 	 box-shadow: -9px 14px 45px -8px rgba(0,0,0,.77);
+	}
+&-field{
+	&-box{
+		position: relative;
+		&-inline{
+			display:inline-block!important;
+		}
+	}
+	&-style{
+		padding-left: 15px;
+		border: 1.5px solid gray;
+		width: 100%;
+		height: 55px;
+		margin-bottom: 8px;
+		border-radius:10px;
+		&:focus{
+			border-color: $default;
+		}
+		
+	}
+}
+&-check{
+	text-align: left;
+	padding-left: 41px;
+  	margin-top: 8px;
+  	margin-bottom: 20px;
+  &-label{
+  	position: relative;
+  	&:hover{
+  		cursor:pointer;
+  	}
+  }
+  label:before{
+  	content: '';
+  	position: absolute;
+    left: -25px;
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+    background-color: #fff;
+		}
+	label:after{
+	content: '';
+	position: absolute;
+    left: -23px;
+    width: 20px;
+    height: 21px;
+  	}
+  }
+
+ }
+ @media screen and (max-width:991px){
+	.form{
+		&-box{
+			padding: 37px 35px!important;
+		}
+		&-check{
+			text-align: center;
+		}
+
+	}
+}
+@media screen and (max-width:575px){
+	.form{
+		&-check{
+			text-align:left;
+			padding-left:25px;
+		}
+	}
+}
+@media screen and (max-width:480px){
+	.form{
+		&-box{
+			padding: 37px 12px!important;
+		}
+	}
+}
+ input::placeholder { color: #20222a; }
+ textarea::placeholder { color: #20222a; }
+
+ .form-title{
+	font-size: 26px;
+	margin-bottom: 10px;
+	&-after{
+		font-size: 19px;
+		margin-bottom: 10px;
+	}
+}
+.form-check-label{
+	color:red;
+	a{
+		color:red;
+		border-bottom-color:red;
+	}
+}

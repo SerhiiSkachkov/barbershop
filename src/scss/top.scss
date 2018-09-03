@@ -1,0 +1,259 @@
+header {
+    position: relative; }
+
+.top-line {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: white; }
+
+.top-line-mod {
+    position: static;
+    background: url(../img/h-bgg.jpg) center top no-repeat/cover; }
+
+.top-line-cont {
+    text-align: right;
+    width: 300px;
+    padding-top: 13px; }
+
+.top-line-number {
+    font: 24px "DINCyr med"; }
+
+.top-line-number-call {
+    color: white;
+    display: inline-block; }
+
+.top-line-number-call-me {
+    font-size: 16px;
+    margin-right: 70px; }
+
+.top-line-number-call:hover {
+    color: #a68251;
+    transition: 0.5s; }
+
+.top-line-logo {
+    width: 200px;
+    display: block; }
+
+@media screen and (max-width: 991px) {
+    .top-line-logo {
+        margin-left: 15px; } 
+}
+
+@media screen and (max-width: 767px) {
+    .top-line-logo {
+        display: block;
+        margin: 20px auto; }
+
+    .top-line-cont {
+        margin-left: 15px;
+        width: 201px;
+        float: none !important;
+        margin-bottom: 10px;
+        padding-top: 9px; }
+
+    .top-line-number-txt {
+        margin-left: 60px; } 
+}
+
+.banner {
+    color: white;
+    padding-top: 115px;
+    background: url(../img/h-bg.jpg) top center no-repeat/cover;
+    padding-bottom: 110px; }
+
+.banner-wrap {
+    padding-left: 10px; }
+
+.banner-title {
+    font: 69px/1 "Lumberjack Rough";
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 17px; }
+
+.banner-title-before {
+    font: 51px "Lumberjack Rough";
+    margin-top: 10px;
+    margin-bottom: 7px;
+    letter-spacing: 4px; }
+
+.banner-title-after {
+    font: 23px "Lumberjack";
+    margin-bottom: 50px; }
+
+@media screen and (min-width: 767px) {
+    .banner-title-after {
+        letter-spacing: 5px; } 
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        padding-top: 145px;
+        text-align: center;
+        padding-bottom: 60px; }
+
+    .banner-wrap {
+        padding-top: 30px; }
+
+    .banner-title {
+        font-size: 46px;
+        margin-bottom: 5px;
+        letter-spacing: 3px; }
+
+    .banner-title-before {
+        font-size: 40px; }
+
+    .banner-title-after {
+        font-size: 20px;
+        margin-bottom: 35px; }
+
+    .banner-wrap {
+        padding-left: 0px; } 
+  }
+
+.open {
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 38px;
+    margin-right: 34px;
+    background: url(../img/open-bg.png) top center/no-repeat/contain; }
+
+.open-wrap {
+    padding-left: 0px; }
+
+.open-title {
+    font-size: 34px; }
+
+.open-title-after {
+    margin-bottom: 18px;
+    font-size: 21px; }
+
+.open-field {
+    margin-bottom: 15px;
+    text-align: center; }
+
+.open-field-style:last-child {
+    margin-right: 0px; }
+
+.open-field-style {
+    padding: 12px 10px;
+    background-color: #c5c5c8;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    margin-right: 8px; }
+
+.open-check {
+    margin: 15px 0px; }
+
+.open-check-box {
+    display: none; }
+
+ .open-check-label {
+    position: relative; }
+
+.open-btn {
+    padding: 10px 52px 18px;
+    font-size: 19px;
+    background-color: #a68251;
+    border: none;
+    border: 1.5px solid transparent;
+    border-radius: 30px;
+    box-shadow: -2px 7px 26px -7px rgba(0, 0, 0, 0.75); }
+
+.open-btn:hover {
+    background-color: white;
+    border-color: #a68251;
+    color: #a68251;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+.open-btn-white {
+    color: white; }
+
+label:before {
+    position: absolute;
+    left: -28px;
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: white; }
+
+label:after {
+    content: '';
+    position: absolute;
+    left: -26px;
+    top: -5px;
+    width: 19px;
+    height: 21px;
+    display: inline-block; }
+
+input:checked + label {
+    color: inherit; }
+    input:checked + label a {
+    color: #28435d;
+    border-bottom: 1.5px solid #28435d; }
+    input:checked + label .confidencial-white {
+    color: white;
+    border-bottom: 1.5px solid white; }
+
+input:checked + label:before {
+    border-color: #d3d3d3; }
+
+input:checked + label:after {
+    background: url(../img/check.png) center top no-repeat/cover; }
+
+@media screen and (max-width: 991px) {
+    .open {
+        margin-right: 0px; } }
+
+.hamburger {
+    padding: 15px 15px 5px !important; }
+
+.hamburger-inner {
+    background-color: #a68251 !important;
+    width: 27px !important;
+    right: 0;
+    border-radius: 2px; }
+
+.hamburger-inner:before {
+    background-color: #a68251 !important;
+    width: 31px !important;
+    right: 0;
+    border-radius: 2px; }
+
+.hamburger-inner:after {
+    background-color: #a68251 !important;
+    width: 35px !important;
+    left: -7px;
+    border-radius: 2px; }
+
+.hamburger--collapse.is-active .hamburger-inner {
+    width: 31px !important; }
+
+#my-menu li:hover {
+    background-color: #a68251; }
+
+.hamburger--collapse.is-active {
+    right: 0px !important;
+    position: fixed;
+    -webkit-transition: 0.9s;
+    transition: 0.9s; }
+
+@media screen and (max-width: 1280px) {
+    .hamburger--collapse.is-active {
+        right: -10px !important; } }
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1024px) {
+    .hamburger--collapse.is-active {
+        position: static; } }
+
+@media screen and (min-device-width: 750px) and (max-device-width: 770px) {
+    .hamburger--collapse.is-active {
+        position: static; } }

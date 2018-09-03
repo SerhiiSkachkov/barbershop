@@ -1,0 +1,326 @@
+.market {
+ 	padding-top: 55px;
+  	padding-bottom: 44px;
+ 	 background: linear-gradient(135deg, #d5dcde 0%, #f1f4f5 41%, #f4f6f7 45%, #f4f6f7 60%, #d5dcde 100%); }
+
+.market h2 {
+    text-align: right;
+    margin: 0px 40px 13px; }
+    
+.market-title-before {
+    text-align: right;
+    font: 38px "Lumberjack Rough";
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    margin-right: 37px; }
+
+.market-context {
+    font: 900 19px "DINCyr"; }
+
+.market-context-after {
+    font: 17px/25px "DINCyr";
+    margin-bottom: 15px; }
+
+.market-clmn-right {
+    padding-left: 5px; }
+
+.market-clmn-left {
+    margin-top: -121px;
+    padding-top: 30px; }
+
+.chart-dot-inner:hover .chart-crop {
+  background-color: #a68251; }
+
+.market-context,
+.market-context-after {
+  margin-left: 24px; }
+
+@media screen and (max-width: 1199px) {
+  	.market h2 {
+    	text-align: center; }
+
+  	.market-title-before {
+    	text-align: center;
+    	font-size: 30px;
+    	margin-right: 0px; }
+
+  	.market-clmn-left {
+    	margin-top: 0px;
+    	padding: 30px 0px 0px 0px; } 
+}
+
+@media screen and (max-width: 991px) {
+  	.market {
+  	    background: -webkit-linear-gradient(#f0f0f0 0%, #f0f0f0 1%, white 13%, white 65%, #f2f2f2 100%);
+  	    background: -o-linear-gradient(#f0f0f0 0%, #f0f0f0 1%, white 13%, white 65%, #f2f2f2 100%);
+  	    background: linear-gradient(#f0f0f0 0%, #f0f0f0 1%, white 13%, white 65%, #f2f2f2 100%); }
+
+    .market h2 {
+      text-align: center; }
+
+    .market-title-before {
+      text-align: center; }
+
+    .market-clmn-right {
+      padding-left: 15px; }
+
+    .market-clmn-left {
+      margin-bottom: 40px; }
+
+    .market .market-context,
+    .market .market-context-after {
+      margin-left: 0px; } 
+}
+
+.chart {
+  	background-color: white;
+  	margin-right: 13px;
+  	padding-top: 38px;
+  	text-align: center;
+  	padding-bottom: 40px;
+  	-webkit-box-shadow: rgba(0, 0, 0, 0.75) 11px 13px 40px -1px;
+  	        box-shadow: rgba(0, 0, 0, 0.75) 11px 13px 40px -1px; }
+
+.chart-title {
+  	text-align: center;
+  	font-size: 21px; }
+
+.chart-descr {
+  	margin-top: 3px;
+  	font-size: 18px;
+  	text-align: left;
+  	padding-left: 30px; }
+
+@media screen and (max-width: 767px) {
+  	.market {
+    	padding-top: 37px; }
+
+    .market h2 {
+      	margin: 0; }
+
+    .market-title-before {
+      	text-align: center;
+      	font: 21px/1.4 "Lumberjack Rough";
+      	letter-spacing: 0.5px; }
+
+    .market-clmn-left {
+      	padding: 15px 0px;
+      	margin-bottom: 0; }
+
+    .market .chart-title {
+      	font-size: 17px; }
+
+    .market .chart-descr {
+      	font-size: 16px;
+      	text-align: center;
+      	padding-left: 0px; } 
+}
+
+@media screen and (max-width: 575px) {
+  .chart {
+    -webkit-box-shadow: none;
+        box-shadow: none; } 
+}
+
+.chart-box {
+  	position: relative;
+  	height: 100%; }
+
+.chart-dot {
+  	width: 58px;
+  	float: left;
+  	position: relative;
+  	height: 100%; }
+
+.chart-dot-inner {
+    position: absolute;
+    left: 5px; }
+
+.chart-dot-inner-one {
+  	bottom: 0px; }
+
+.chart-dot-inner-two {
+  	bottom: 30px;
+  	left: 12px; }
+
+.chart-dot-inner-three {
+  	bottom: 53px;
+  	left: 15px; }
+
+.chart-dot-inner-four {
+  	bottom: 131px;
+  	left: 27px; }
+
+.chart-dot-inner-five {
+  	bottom: 158px;
+  	left: 32px; }
+
+.chart-dot-inner-five .chart-crop {
+    background-color: #a68251; }
+
+.chart-dot-inner-six {
+  	bottom: 218px;
+  	left: 38px; }
+
+.chart-dot-txt {
+    display: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px dashed darkgray;
+    border-radius: 3px;
+    width: 54px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999; }
+
+.chart-dot-txt:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    border-right: 1px dashed darkgray;
+    border-bottom: 1px dashed darkgray;
+    bottom: -6px;
+    left: 12px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: 0;
+    background-color: #fff; }
+
+.chart-dot-wrap {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding-right: 27px;
+    padding-bottom: 80px; }
+
+.char-dot-inner:hover .chart-crop {
+  	background-color: #a68251; }
+
+.chart-crop {
+  	width: 14px;
+  	height: 14px;
+  	margin: 8px 8px;
+  	background-color: darkgray;
+  	border-radius: 50%; }
+
+.chart-dot-inner-one:hover .chart-dot-txt-one {
+  	display: block; }
+
+.chart-dot-inner {
+  	cursor: pointer;
+  	-webkit-transition-duration: 2s;
+          transition-duration: 2s; }
+
+.chart-dot-inner-two:hover .chart-dot-txt-two {
+  	display: block; }
+
+.chart-dot-inner-three:hover .chart-dot-txt-three {
+  	display: block; }
+
+.chart-dot-inner-four:hover .chart-dot-txt-four {
+  	display: block; }
+
+.chart-dot-txt-five {
+  	display: block; }
+
+.chart-dot-inner-six:hover .chart-dot-txt-six {
+  	display: block; }
+
+@media screen and (max-width: 1280px) {
+  .chart-dot-wrap {
+    padding-right: 20px; } 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  	.chart {
+    	margin: 0px; }
+
+    .chart-dot {
+      	width: 53px; }
+
+  	.chart-dot-wrap {
+    	padding-right: 19px;
+    	padding-bottom: 59px; }
+
+  	.chart-dot-inner-one {
+    	bottom: 10px; }
+  	.chart-dot-inner-two {
+   		bottom: 40px; }
+
+  	.chart-dot-inner-three {
+    	bottom: 63px; }
+}
+
+@media screen and (max-width: 992px) {
+  .chart-dot-wrap {
+    padding-right: 48px; } 
+}
+
+@media screen and (max-width: 767px) {
+  	.chart-dot-wrap {
+    	padding-right: 54px; } 
+}
+
+@media screen and (max-width: 575px) {
+  	.chart-dot-wrap {
+    	padding-right: 16px;
+    	padding-bottom: 77px; }
+
+  	.chart {
+    	width: 480px;
+    	margin: 0 auto; } 
+}
+
+@media screen and (max-width: 480px) {
+  	.chart-dot-wrap {
+    	padding-right: 0px;
+    	padding-bottom: 0px; }
+
+  	.chart {
+    	width: 300px;
+    	margin: 0 auto;
+    	padding-bottom: 0px; }
+
+  	.chart-dot {
+   	 	width: 42px;
+    	float: left; }
+
+  	.chart-dot-inner-six {
+    	bottom: 182px;
+    	left: 10px; }
+
+  	.chart-dot-inner-three {
+    	bottom: 81px;
+    	left: 17px; }
+
+  	.chart-dot-inner-two {
+    	bottom: 64px;
+    	left: 20px; }
+
+  	.chart-dot-inner-one {
+    	bottom: 47px;
+    	left: 21px; }
+
+  	.chart-dot-inner-four {
+    	bottom: 125px;
+    	left: 15px; }
+
+  	.chart-dot-inner-five {
+    	left: 12px;
+    	bottom: 144px; }
+
+  	.chart-dot-txt {
+    	width: 42px;
+    	padding-bottom: 2px;
+    	font-size: 11px; }
+
+    .chart-dot-txt:before {
+      	width: 8.9px;
+      	-webkit-transform: rotate(40deg);
+              	transform: rotate(40deg); }
+
+  	.chart-crop {
+    	margin-left: 12px; } 
+}

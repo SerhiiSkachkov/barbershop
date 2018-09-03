@@ -1,0 +1,62 @@
+.support {
+  	padding-bottom: 34px;
+  	padding-top: 66px; }
+
+.support-title {
+    width: 82%;
+    margin: 5px auto 50px;
+    font: 30px "Lumberjack Rough";
+    text-align: center; }
+
+.support-clmn-left {
+    padding-top: 20px;
+    padding-right: 0; }
+
+.support-clmn-right {
+    padding-right: 0px;
+    padding-left: 25px; }
+
+.support-list {
+    padding-left: 20px; }
+
+.support-list li {
+    font-size: 19px;
+    padding-left: 15px;
+    margin-bottom: 14px; }
+
+.support-list-two {
+    padding-top: 5px;
+    padding-left: 54px; }
+
+.support-list-two li {
+    margin-bottom: 17px;
+    font-size: 17.5px; }
+
+.support-list-title {
+    font-size: 24px; }
+
+
+@media screen and (max-width: 991px) {
+  	.support-title {
+    	width: 100%; }
+
+  	.support-clmn-left {
+    	padding-right: 15px; }
+
+  	.support-clmn-right {
+    	padding: 0px  15px;
+    	text-align: center; }
+}
+
+@media screen and (max-width: 767px) {
+  	.support-title {
+    	width: 100%;
+    	font-size: 21px;
+    	margin-bottom: 0; }
+
+  	.support-clmn-left {
+    	padding-top: 12px; }
+
+  	.support-list-title {
+    	font-size: 21px; }
+}

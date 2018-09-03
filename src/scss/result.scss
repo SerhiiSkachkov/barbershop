@@ -1,0 +1,89 @@
+.result {
+  	padding: 80px 0px 76px; }
+  	
+.result h2 {
+    margin-bottom: 32px; }
+
+.result-clmn-left {
+    padding-top: 15px; }
+
+.result-item {
+    margin-bottom: 39px;
+    width: 50%;
+    float: left; }
+
+.result-item:nth-child(even) {
+    padding-left: 12px; }
+
+.result-context {
+    font-size: 23px; }
+
+.result-context-after {
+    font-size: 17px; }
+
+.result-img {
+    width: 51px;
+    margin-bottom: 5px; }
+
+.result-form {
+    margin-left: 70px;
+    padding: 43px 42px 50px 33px; }
+
+.result-form-title {
+    font: 34px "DINCyr bold"; }
+
+.result-form-title-after {
+    font-size: 20px;
+    margin-bottom: 20px; }
+
+.btn-result {
+  	padding: 15px 82px 22px; }
+
+@media screen and (max-width: 1199px) {
+  	.result-form {
+    	margin-left: 0px;
+   	 	padding: 43px 33px 50px 33px; }
+
+  	.result-clmn-right {
+    	padding-left: 0px; } 
+}
+
+@media screen and (max-width: 991px) {
+  	.result-item {
+    	text-align: center; }
+
+  	.result-clmn-right {
+    	padding-left: 15px; }
+
+  	.result-item:nth-child(even) {
+    	padding-left: 0px; } 
+}
+
+@media screen and (max-width: 767px) {
+  	.result {
+    	padding: 30px 0px; }
+
+    .result-clmn-right {
+      	padding: 0px 50px; }
+
+    .result-item {
+      	float: none;
+      	width: 100%; }
+
+    .result-form {
+      	margin: 0;
+      	padding: 30px 33px; } 
+}
+
+@media screen and (max-width: 480px) {
+  	.result-clmn-right {
+    	padding: 0px 10px; }
+  	.result-form {
+    	padding: 30px 10px; }
+    .result-form-title {
+      	font-size: 28px; }
+    .result-form-title-after {
+        font-size: 19px; }
+  	.btn-result {
+    	padding: 15px 48px 22px; } 
+}

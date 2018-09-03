@@ -1,0 +1,111 @@
+.invest {
+  	padding-top: 55px;
+  	padding-bottom: 55px;
+  	text-align: center; }
+
+.invest-box {
+    text-align: left; }
+
+.invest-title-after {
+    font: 56px "Lumberjack Rough";
+    text-transform: uppercase;
+    margin-bottom: 14px; }
+
+.invest-title-after-lg {
+    margin-left: 10px; }
+
+.invest-pre-title {
+    background-color: #edeeef;
+    display: inline-block;
+    margin: 0 auto 35px;
+    font: 26.5px "Lumberjack Rough";
+    padding: 0px 15px; }.invest-item {
+    width: 33%;
+    float: left;
+    padding-left: 14px; }
+
+.invest-item-title {
+    font-size: 23px; }
+
+.invest-item-list {
+    padding-left: 20px; }
+
+.invest-item-list li {
+    padding-left: 16px;
+    margin-bottom: 12px;
+    font-size: 17.5px; }
+
+.invest-item-list-mid {
+    padding-top: 29.6px;
+    padding-bottom: 34px; }
+
+.invest-item-lg {
+    width: 55%; }
+
+@media screen and (max-width: 1199px) {
+  	.invest-item-lg {
+    	margin-top: -12px; }
+
+  	.invest-item-list li {
+   		margin-bottom: 17px; }
+
+  	.invest-title-after {
+    	font: 46px "Lumberjack Rough"; } }
+
+@media screen and (max-width: 991px) {
+  	.invest {
+    	padding-bottom: 120px; }
+
+    .invest-box {
+     	position: relative; }
+
+    .invest-item {
+      	width: 50%; }
+
+    .invest-item-list li {
+        margin-bottom: 12px; }
+
+    .invest-item-lg {
+        margin-top: 0px; }
+
+    .invest-item-two {
+        padding-top: 29.6px;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        padding-bottom: 34px;
+        bottom: -165px; } 
+}
+
+@media screen and (max-width: 767px) {
+  	.invest {
+    	padding-bottom: 50px; }
+
+    .invest-item {
+      	width: 100%; }
+
+    .invest-item-title {
+        font-size: 19px; }
+
+    .invest-item-list-mid {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0px; }
+
+    .invest-item-two {
+        padding-top: 0;
+        position: static;
+        padding-bottom: 0px; }
+
+    .invest-title-after {
+      font-size: 36px; }
+
+    .invest-title-after-lg {
+        font-size: 46px;
+        display: block;
+        margin-left: 0; }
+
+    .invest-pre-title {
+      font-size: 20px;
+      margin-bottom: 20px; } 
+}

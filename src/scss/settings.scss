@@ -1,0 +1,79 @@
+.settings {
+  	padding-top: 60px;
+  	padding-bottom: 30px;
+  	background: url("../img/set.jpg") center top no-repeat/cover; }
+
+.settings-clmn-1-4 {
+    padding-top: 117px;
+    padding-left: 22px; }
+
+.settings-clmn-1-4-txt {
+    font-size: 24px; }
+
+.settings-clmn-1-4 ul {
+    padding-top: 30px; }
+
+.settings-clmn-2-4 {
+    padding-left: 35px;
+    text-align: right; }
+
+.settings-clmn-3-4 {
+    margin-top: -8px; }
+
+.settings-list {
+    padding-top: 90px;
+    padding-left: 17px; }
+
+.settings-list li {
+    font-size: 19px;
+    padding-left: 10px;
+    margin-bottom: 20px; }
+
+@media screen and (max-width: 1199px) {
+  .settings-clmn-1-4 {
+    padding-top: 0px; }
+
+  .settings-clmn-3-4 {
+    margin-top: 0; } 
+}
+
+@media screen and (max-width: 991px) {
+  .settings-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .settings-clmn-1-4 {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    padding-left: 15px; }
+  .settings-clmn-1-4-txt {
+      margin-bottom: 10px; }
+
+  .settings-clmn-4-4 {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 20px; }
+
+  .settings-clmn-3-4 {
+    text-align: center; }
+
+  .settings-clmn-2-4 {
+    padding-left: 15px;
+    margin-bottom: 30px; }
+    
+  .settings-list {
+    padding-top: 0px;
+    margin-top: 0px; } 
+}
+
+@media screen and (max-width: 575px) {
+  .settings-clmn-1-4-txt {
+    font-size: 22px; } 
+}

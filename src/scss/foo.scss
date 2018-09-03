@@ -1,0 +1,127 @@
+.foo{
+		padding: 54px 0px 40px;
+		&-conf{
+			background: url(../img/bgg-foo.jpg) center top no-repeat/cover;
+		}
+	&-wrap{
+		border-top:1px solid lightgray;
+			padding-top: 35px;
+	}
+	&-adr{
+		&-list{
+			margin-bottom: 0px !important;
+		}
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			font:16px $dinM;
+			list-style-type: none;
+			margin-bottom: 13px;
+			a{
+				text-decoration: none;
+				color:black;
+				border-bottom: 1.5px solid transparent;
+				transform: translateZ(0);
+				&:hover{
+					color:$default;
+					transition:0.3s;
+					border-bottom: 1.5px solid $default;
+				}
+			}
+		}
+	}
+	&-social{
+		padding-top: 10px;
+		a{
+				margin-right:30px;
+				transform: translateZ(0);
+		&:hover{
+				opacity: 0.77;
+				border-bottom-color: transparent!important;
+				}
+		}
+		&-img{
+			width: 30px;
+		}	
+			}
+		&-1-3{
+			padding-left: 74px;
+		}
+		&-2-3{
+			padding-left: 36px;
+		}
+		&-3-3{
+			padding:0px  0px 0px 35px;
+			a{
+				display: block;
+				img{
+					width: 240px;
+				}	
+				&:hover{
+					opacity: 0.66;
+					border-bottom-color:  transparent!important;
+				}
+			}
+		}
+}
+@media screen  and ( max-width:1199px) {
+	.foo{
+		&-1-3{
+			padding-left: 15px;
+		}
+	}
+	}
+	@media screen  and ( max-width:991px) {
+	.foo{
+		&-connect{
+			float: 	right;
+		}
+		&-2-3{
+			padding:0px 15px; 	
+		}
+		&-3-3{
+			padding: 0px 15px;
+		}
+	}
+}
+@media screen  and ( max-width:767px) {
+	.foo{
+		ul li{
+			font-size: 17px;
+		}
+		&-box{
+			display: flex;
+    	flex-direction: column;
+		}
+		&-connect{
+			text-align: center;
+			order: 1;
+		}
+		&-social{
+			a:last-child{
+				margin-right: 0px;
+			}
+		}
+		&-1-3{
+			padding-left:15px;
+		}
+		&-2-3{
+			padding-left: 15px;
+		}
+		&-3-3{
+			order:1;
+			text-align: center;	
+			padding:0px 15px;
+			a{
+				max-width: 320px;
+			margin:0 auto;
+			}
+		}
+	}
+	}
+
+.found-foo{
+	padding-top: 0;
+}

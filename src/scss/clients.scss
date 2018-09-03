@@ -1,0 +1,38 @@
+.clients {
+  	padding: 30px 0px 18px; }
+  	
+.clients-clmn-left {
+    padding-top: 95px; }
+
+.clients-clmn-right {
+    padding-left: 22px; }
+
+.clients-list {
+    padding-left: 20px;
+    padding-right: 30px; }
+
+.clients-list li {
+    padding-left: 14px;
+    font-size: 19px;
+    margin-bottom: 30px; }
+
+.clients-list-title {
+    font-size: 24px;
+    padding-bottom: 6px; }
+
+.clients-list-two {
+    padding-left: 50px; }
+
+.clients-list-two li {
+    font-size: 18px; }
+
+@media screen and (max-width: 1199px) {
+  .clients-clmn-left {
+    padding-top: 30px; }
+  .clients-list {
+    padding-right: 0px; } }
+
+@media screen and (max-width: 992px) {
+  .clients-clmn-right {
+    text-align: center;
+    padding-left: 15px; } }

@@ -1,0 +1,104 @@
+.quest{
+	padding-top:50px;
+	background:url('../img/foot.jpg') center bottom no-repeat/cover;
+	&-clmn-left{
+		padding-top: 13px;
+		h2{
+			text-align: left;
+			margin-bottom: 10px;
+		}
+	}
+	&-title-after{
+			font-size: 19px;
+	}
+	&-prof{
+		padding-top:120px;
+		h3{
+			font-size: 21px;
+		}
+		&-after{
+			font-size:19px;
+		}
+	}
+	&-img{
+		margin-top: 10px;
+		float: left;
+		width: 178px;
+    margin-left: -15px;
+	}
+	&-form{
+		margin-left: 68px;
+		padding: 37px 38px 37px 41px;
+		&-check{
+			margin-top: 15px;
+		}
+	}
+}
+.quest-field-style{
+		padding-left: 15px;
+		border: 1.5px solid gray;
+		width: 100%;
+		height: 47px;
+		margin-bottom: 11px;
+		border-radius:10px;
+		&:focus{
+				border: 1.5px solid $default;
+		}
+		&-area{
+			padding-top:15px;
+			height: 121px;
+			resize:none;
+		}
+}
+.quest-btn{
+	padding: 17px 95px 20px;
+}
+@media screen and (max-width: 1280px){
+	.quest{
+		&-form{
+			margin-left: 0;
+		}
+	}
+}
+@media screen and (max-width: 1199px){
+	.quest{
+		&-form{
+			    padding: 37px 25px 37px 25px;
+		}
+	}
+	}
+	@media screen and (max-width: 991px){
+	.quest{
+		h2{
+			text-align: center;
+		}
+		&-title-after{
+			text-align: center;
+		}
+		&-img{
+			margin-left: 0px;
+		}
+	}
+}
+@media screen and (max-width: 575px){
+	.quest{
+		&-clmn-right{
+			padding:0px 10px; 
+		}
+		&-btn{
+			padding: 17px 68px 20px;
+		}
+		&-img {
+    	width: 100px;
+		}
+		&-prof {
+    	padding-top: 25px;
+			h3 {
+    		font-size: 21px;
+    	}
+    	&-after {
+    		font-size: 17px;
+    	}
+    }
+	}
+}
